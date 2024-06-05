@@ -1,0 +1,1 @@
+{"gender": {"female": 0, "male": 1}, "columns": ["weight", "height", "bmi", "gender", "age", "bmicase_mild thinness", "bmicase_moderate thinness", "bmicase_normal", "bmicase_obese", "bmicase_over weight", "bmicase_sever thinness", "bmicase_severe obese"]}

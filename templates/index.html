@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical_insurance_charges</title>
+</head>
+<body style="background-color: hsl(61, 100%, 50%);">
+<!-- <body background-image="static/dhoni.jpg" background-repeat="no-repeat” background-size="cover”> -->
+    <!-- <center> -->
+    <center>
+    <h1> Fittness Plan</h1>
+    </center>
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSURANCE -->
+    <br>
+    <br>
+    <img src='static\dhoni.jpg'>
+    
+    <br><br>
+    <form method="post" action ="/predict_charges">
+        
+        <label>Weight:</label>
+        <input type="text" name ="weight">
+        <br>
+        <br>   						
+        <label>Height:</label>
+        <input type="text" name ="height">
+        <br>
+        <br>
+        <label>BMI:</label>
+        <input type="text" name ="bmi">
+        <br>
+        <br> 
+        <label>Gender:</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option></select>
+        <br>  
+        <br>        
+        <label>AGE:</label>
+        <input type="text" name ="age">
+        <br>  
+        <br>   
+
+
+        <label>Bmicase:</label>
+ 
+        <select name="bmicase">
+            <option value="mild thinness">mild thinness</option>
+            <option value="thinness'">thinness</option>
+            <option value="normal">normal</option>
+            <option value="obese">obese</option>
+            <option value="over weight">over weight</option>
+            <option value="sever thinness">sever thinness</option>
+            <option value="severe obese">severe obese</option></select>
+            
+        
+        <br>
+        <br>
+        <input type="submit" value ="SUBMIT">
+     
+
+    </form>
+   
+    <br>
+    <br>
+    {{charges}}
+    <!-- </center>  -->
+</body>
+</html>
+

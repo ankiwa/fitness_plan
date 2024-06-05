@@ -1,0 +1,1 @@
+print('Fitness Plan Project File Initiated'.center(80, '*'))
