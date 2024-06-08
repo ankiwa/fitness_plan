@@ -38,4 +38,4 @@ def get_fitness_plan():
 
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0', port = config.PORT_NUMBER, debug=False)
+    app.run(host = '0.0.0.0', port = config.PORT_NUMBER, debug=True)
