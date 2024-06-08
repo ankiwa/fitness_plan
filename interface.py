@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, render_template
 import config
 import numpy as np
-from project_app.utils import FitnessPlan
+from utils import FitnessPlan
 
 app = Flask(__name__)
 
@@ -38,4 +38,4 @@ def get_fitness_plan():
 
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0', port = config.PORT_NUMBER, debug=True)
+    app.run(host = '0.0.0.0', port = config.PORT_NUMBER, debug=False)
